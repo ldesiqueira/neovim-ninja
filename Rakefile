@@ -10,11 +10,13 @@ namespace :deploy do
   end
   desc 'Deploy Neovim Configuration'
   task :neovim_configuration do
-    unless Dir.exist? '~/.config/nvim'
-      system "mkdir -p ~/.config/nvim"
-    end
+    system "mkdir -p ~/.config/nvim"
+    system "mkdir -p ~/.config/nvim/plugged"
+    system "mkdir -p ~/.config/nvim/autoload"
     system "ln -s ~/.ninja/nvim/init.vim ~/.config/nvim/init.vim"
     system "ln -s ~/.ninja/nvim/common.vim ~/.config/nvim/common.vim"
+    system "ln -s ~/.ninja/nvim/plug.vim ~/.config/nvim/autoload/plug.vim"
+    system "ln -s ~/.ninja/nvim/plugins.vim ~/.config/nvim/plugins.vim"
   end
 end
 
