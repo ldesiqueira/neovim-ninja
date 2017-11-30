@@ -26,3 +26,9 @@ set gdefault
 
 " Search and Replace mapped to ,s
 nmap <Leader>s :%s//g<Left><Left>
+
+" Enable Colors
+set termguicolors
+syntax enable
+set background=dark
+colorscheme NeoSolarized

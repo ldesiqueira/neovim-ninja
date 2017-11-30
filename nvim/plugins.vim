@@ -1,7 +1,7 @@
 " Installed plugins with vim-plug https://github.com/junegunn/vim-plug
 call plug#begin('~/.config/nvim/plugged')
-"Plug 'ldesiqueira/YouCompleteMe'
-"Plug 'ldesiqueira/vim-colors-solarized'
+Plug 'ldesiqueira/YouCompleteMe'
+Plug 'ldesiqueira/NeoSolarized'
 "Plug 'ldesiqueira/vim-ruby'
 "Plug 'ldesiqueira/ag.vim'
 "Plug 'ldesiqueira/ctrlp.vim'

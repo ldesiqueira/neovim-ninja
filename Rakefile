@@ -13,6 +13,7 @@ namespace :deploy do
     system "mkdir -p ~/.config/nvim"
     system "mkdir -p ~/.config/nvim/plugged"
     system "mkdir -p ~/.config/nvim/autoload"
+    system "mkdir -p ~/.config/nvim/colors"
     system "mkdir -p ~/.config/nvim/after/ftplugin"
     system "ln -s ~/.ninja/nvim/init.vim ~/.config/nvim/init.vim"
     system "ln -s ~/.ninja/nvim/common.vim ~/.config/nvim/common.vim"
@@ -21,4 +22,3 @@ namespace :deploy do
     system "ln -s ~/.ninja/nvim/ftplugin/python.vim ~/.config/nvim/after/ftplugin/python.vim"
   end
 end
-
