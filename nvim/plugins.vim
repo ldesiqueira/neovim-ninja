@@ -1,5 +1,5 @@
 " Installed plugins with vim-plug https://github.com/junegunn/vim-plug
-"call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 "Plug 'ldesiqueira/YouCompleteMe'
 "Plug 'ldesiqueira/vim-colors-solarized'
 "Plug 'ldesiqueira/vim-ruby'
@@ -24,4 +24,4 @@
 "Plug 'ldesiqueira/vim-dispatch'
 "Plug 'ldesiqueira/rename.vim'
 "Plug 'ldesiqueira/vim-addon-mw-utils'
-"call plug#end()
+call plug#end()
