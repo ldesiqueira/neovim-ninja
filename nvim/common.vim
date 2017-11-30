@@ -1,5 +1,9 @@
 " Common rules
 
+" Configure correct Python interpreters
+let g:python_host_prog = '/home/luis/.virtualenvs/neovim2/bin/python'
+let g:python3_host_prog = '/home/luis/.virtualenvs/neovim/bin/python'
+
 " turn filetypes on for indent
 filetype plugin indent on
 
@@ -32,3 +36,13 @@ set termguicolors
 syntax enable
 set background=dark
 colorscheme NeoSolarized
+
+" ALE configurations
+let g:ale_fixers = {
+\  'python': [
+\      'autopep8',
+\      'isort'
+\   ]
+\}
+"let g:ale_completion_enabled = 1
+"let g:ale_sign_column_always = 1

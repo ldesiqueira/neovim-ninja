@@ -2,6 +2,7 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'ldesiqueira/YouCompleteMe'
 Plug 'ldesiqueira/NeoSolarized'
+Plug 'ldesiqueira/ale'
 "Plug 'ldesiqueira/vim-ruby'
 "Plug 'ldesiqueira/ag.vim'
 "Plug 'ldesiqueira/ctrlp.vim'
