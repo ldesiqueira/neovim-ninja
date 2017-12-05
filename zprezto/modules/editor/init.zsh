@@ -260,7 +260,7 @@ bindkey -M vicmd "$key_info[Control]X$key_info[Control]E" edit-command-line
 
 # Undo/Redo
 bindkey -M vicmd "u" undo
-bindkey -M vicmd "$key_info[Control]R" redo
+#bindkey -M vicmd "$key_info[Control]R" redo
 
 if (( $+widgets[history-incremental-pattern-search-backward] )); then
   bindkey -M vicmd "?" history-incremental-pattern-search-backward
