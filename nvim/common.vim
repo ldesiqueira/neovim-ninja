@@ -1,14 +1,14 @@
 " Common rules
 
 " Configure correct Python interpreters
-let g:python_host_prog = '/home/luis/.virtualenvs/neovim2/bin/python'
-let g:python3_host_prog = '/home/luis/.virtualenvs/neovim/bin/python'
+let g:python_host_prog = '/Users/luis/.virtualenvs/nvim/bin/python'
+let g:python3_host_prog = '/Users/luis/.virtualenvs/nvim3/bin/python'
 
 " Configure correct Ruby interpreter
-let g:ruby_host_prog = '/home/luis/.rvm/rubies/ruby-2.4.1/bin/ruby'
+"let g:ruby_host_prog = '/Users/luis/.rvm/rubies/ruby-2.4.1/bin/ruby'
 
 " Configure correct Node Interpreter
-let g:node_host_prog = '/home/luis/.virtualenvs/neovimnode/bin/node'
+"let g:node_host_prog = '/Users/luis/.virtualenvs/neovimnode/bin/node'
 
 " turn filetypes on for indent
 filetype plugin indent on
