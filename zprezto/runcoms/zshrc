@@ -8,6 +8,11 @@ fi
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# ctrl-r for reverse history search
 bindkey '^r' history-incremental-search-backward
+
+# load secrets
+source ~/.secrets
+
 # Must be last line in this file
 source ~/.ninja/zprezto/modules/syntax-highlighting/external/zsh-syntax-highlighting.zsh
