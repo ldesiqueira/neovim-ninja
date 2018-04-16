@@ -2,7 +2,7 @@
 
 " Configure correct Python interpreters
 let g:python_host_prog = '/Users/luis/.virtualenvs/nvim/bin/python'
-let g:python3_host_prog = '/Users/luis/.virtualenvs/nvim3/bin/python'
+"let g:python3_host_prog = '/Users/luis/.virtualenvs/nvim3/bin/python'
 
 " Configure correct Ruby interpreter
 "let g:ruby_host_prog = '/Users/luis/.rvm/rubies/ruby-2.4.1/bin/ruby'
@@ -55,3 +55,5 @@ let g:ale_fixers = {
 
 " configure ycm python interpreter
 let g:ycm_server_python_interpreter = '/Users/luis/.virtualenvs/nvim/bin/python'
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'
