@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/luis/.virtualenvs/nvim3'
+let g:netrw_dirhist_2='/Users/luis/.virtualenvs/nvim3/bin'
+let g:netrw_dirhist_3='/Users/luis/.virtualenvs/nvim'
+let g:netrw_dirhist_4='/Users/luis/.virtualenvs/nvim/bin'
+let g:netrw_dirhist_5='/Users/luis/.ninja'
+let g:netrw_dirhist_6='/Users/luis/code/sfn/jobvite-sparkles/sparkleformation/haproxyapi'
+let g:netrw_dirhist_7='/Users/luis/code/cookbooks/jv_es/attributes'
+let g:netrw_dirhist_8='/Users/luis/.config/nvim/colors'
