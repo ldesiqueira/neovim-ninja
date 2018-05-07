@@ -9,6 +9,7 @@ fi
 export PATH="$PATH:$HOME/.rvm/bin"
 # import my secrets
 source ~/.secrets
+
 bindkey '^r' history-incremental-search-backward
 # Must be last line in this file
 source ~/.ninja/zprezto/modules/syntax-highlighting/external/zsh-syntax-highlighting.zsh
