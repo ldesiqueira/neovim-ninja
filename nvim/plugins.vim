@@ -1,6 +1,7 @@
 " Installed plugins with vim-plug https://github.com/junegunn/vim-plug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'ldesiqueira/YouCompleteMe'
+Plug 'ldesiqueira/vim-coffee-script'
 Plug 'ldesiqueira/vim-javascript'
 Plug 'ldesiqueira/vim-jsx'
 Plug 'ldesiqueira/ag.vim'
